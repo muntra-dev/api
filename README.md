@@ -6,3 +6,10 @@ GET /api/patient-invoices
 ```
 MPMS is built on top of the JSON API specification:
 https://jsonapi.org/
+## Property Types
+| Type |  |  |
+| ------------- | ------------- | ------------- |
+| boolean |  |  |
+| isodate |  |  |
+| number |  |  |
+| string |  |  |
