@@ -7,6 +7,7 @@ GET /api/patient-invoices
 MPMS is built on top of the JSON API specification:
 https://jsonapi.org/
 ## Property Types
+Data models' properties can be any of the following types.
 | Type |  |  |
 | ------------- | ------------- | ------------- |
 | boolean |  |  |
