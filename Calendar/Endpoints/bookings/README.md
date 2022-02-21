@@ -42,3 +42,8 @@
 | procedure | belongsTo | procedure |
 | promo_code | belongsTo | promo-code |
 | rebooking | belongsTo | rebooking |
+
+## Sample JSON Payload
+```
+
+```
