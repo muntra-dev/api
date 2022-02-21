@@ -1,13 +1,15 @@
 # API Docs for Muntra Patient Management System (MPMS)
 
-All endpoints currently use the namespace `/api`, as in e.g.
+All endpoints currently use the namespace `/api`, as in eg.:
 ```
 GET /api/patient-invoices
 ```
+
 MPMS is built on top of the JSON API specification:
 https://jsonapi.org/
+
 ## Property Types
-Data models' properties can be any of the following types.
+Data models' properties can be of the following types.
 | Type |  |  |
 | ------------- | ------------- | ------------- |
 | boolean |  |  |
@@ -22,4 +24,10 @@ Data models' properties can be any of the following types.
   Authorization: Bearer {access-token}
 ```
 
-`Authorization` is not needed for public endpoints such as `muntra-clinics`.
+
+## Other Stuff
+Some endpoints require authentication or a token, others are completely public.
+
+Examples of public endpoints are `muntra-clinics`, `muntra-roles`. Non-public endpoints are eg. `patients`, `bookings` or `journal-entries`.
+
+The `Authorization` request header is not needed for public endpoints.
