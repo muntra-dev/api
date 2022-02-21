@@ -1,3 +1,9 @@
+## Supported HTTP Methods
+| Method | URL | Query Parameters |
+| ------ | --- | ---------------- |
+| GET | /bookings |  |
+
+
 ## Properties
 | Name | Info | Type |
 | ------------- | ------------- | ------------- |
