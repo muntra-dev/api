@@ -1,4 +1,5 @@
 ## Properties
+| Name | Info | Type |
 | ------------- | ------------- | ------------- |
 | class | "PUBLIC" / "PRIVATE" / "CONFIDENTIAL". PUBLIC is default. | string |
 | description |  | string |
@@ -22,8 +23,9 @@
 | transparent |  | boolean |
 
 ## Relations
+| Name | Cardinality | Data Model |
 | ------------- | ------------- | ------------- |
-| booking_attendees |hasMany| booking-attendee |
+| booking_attendees | hasMany | booking-attendee |
 | booking_exdates | hasMany | booking-exdate |
 | booking_rrules | hasMany | booking-rrule |
 | booking_type | belongsTo | booking-type |
