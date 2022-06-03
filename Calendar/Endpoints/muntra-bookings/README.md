@@ -43,7 +43,7 @@
 ```
 /api/muntra-bookings?x=y
 ```
-### JSON Payload
+### Response Payload
 ```
 {
    "data":[
