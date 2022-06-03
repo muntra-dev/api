@@ -40,7 +40,9 @@
 
 ## Sample - GET Request
 ### URL
+```
 /api/muntra-bookings?x=y
+```
 ### JSON Payload
 ```
 {
