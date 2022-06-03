@@ -38,7 +38,10 @@
 | organizer | belongsTo | muntra_caregiver |
 | procedure | belongsTo | muntra_procedure |
 
-## Sample JSON Payload
+## Sample - GET Request
+### URL
+/api/muntra-bookings?x=y
+### JSON Payload
 ```
 {
    "data":[
