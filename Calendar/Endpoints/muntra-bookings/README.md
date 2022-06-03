@@ -38,12 +38,13 @@
 | organizer | belongsTo | muntra_caregiver |
 | procedure | belongsTo | muntra_procedure |
 
-## Sample - GET Request
-### URL
+## Samples
+### GET Request
+#### URL
 ```
 /api/muntra-bookings?x=y
 ```
-### Response Payload
+#### Response Payload
 ```
 {
    "data":[
