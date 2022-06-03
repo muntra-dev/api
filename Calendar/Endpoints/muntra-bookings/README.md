@@ -8,7 +8,7 @@
 |  | | from_date |
 |  | | include |
 
-## Properties
+## Attributes
 | Name | Info | Type |
 | ------------- | ------------- | ------------- |
 | booked_by_patient |  | boolean |
