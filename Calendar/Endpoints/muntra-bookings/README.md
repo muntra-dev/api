@@ -118,7 +118,6 @@
          "id":"202",
          "attributes":{
             "social_security_number":"198204114063",
-            "e_mail_address":"a.haseeb19@gmail.com",
             "first_name":"Hanna",
             "last_name":"Van Gilse Van Der Pals",
             "gender":"female",
@@ -126,7 +125,6 @@
             "address_1":"Frans Kriegs v\u00e4g 16",
             "address_2":null,
             "postal_code":"16733",
-            "phone_number_cell":"+467465767908",
             "accepts_review_request_emails":true
          }
       },
