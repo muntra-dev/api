@@ -1,12 +1,9 @@
 ## Supported HTTP Methods
 | Method | URL | Query Parameters |
 | ------ | --- | ---------------- |
-| GET | /muntra-bookings | order |
-|  | | per_page |
-|  | | sort_by |
-|  | | status |
-|  | | from_date |
-|  | | include |
+| GET | /muntra-bookings | order, per_page, sort_by, status, from_date, iclude|
+| POST | /muntra-bookings | caregiver_id, patient_personal_id |
+| POST | /muntra-bookings/${bookingData.id}/reschedule | new_dtstart |
 
 ## Attributes
 | Name | Info | Type |
@@ -14,9 +11,9 @@
 | booked_by_patient |  | boolean |
 | class |  | string |
 | description |  | string |
-| dtend |  | isodatae |
-| dtstamp |  | isodatae |
-| dtstart |  | isodatae |
+| dtend |  | isodate |
+| dtstamp |  | isodate |
+| dtstart |  | isodate |
 | duration_in_minutes |  | number |
 | location |  | string |
 | new_patient |  | boolean |
