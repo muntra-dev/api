@@ -30,7 +30,7 @@
 ## Relations
 | Name | Cardinality | Data Model |
 | ------------- | ------------- | ------------- |
-| booking_attendees | hasMany | muntra_booking_attendee |
+| booking_attendees | hasMany | [muntra_booking_attendee](https://github.com/muntra-dev/api/tree/hi-muntra-bookings-changes/Calendar/Endpoints/muntra-booking-attendees) |
 | clinic | belongsTo | muntra_clinic |
 | organizer | belongsTo | muntra_caregiver |
 | procedure | belongsTo | muntra_procedure |
