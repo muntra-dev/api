@@ -91,7 +91,7 @@
 | signer | belongsTo | user |
 | sms | hasMany | sms |
 | state_registration | belongsTo | state-registration |
-| stb_disease | belongsTo | stb-disease |
+| stb_disease | belongsTo | [stb-disease](../stb-diseases/) |
 | teeth | hasMany | tooth |
 | user | belongsTo | user |
 
