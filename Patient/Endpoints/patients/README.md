@@ -77,7 +77,7 @@
 | journal_entries | hasMany | journal-entry |
 | last_credit_check | belongsTo | credit-check |
 | last_risk_evaluation | belongsTo | risk-evaluation |
-| last_tanden_check | belongsTo | tanden-check |
+| last_tanden_check | belongsTo | [tanden-check](../tanden-checks/) |
 | location | belongsTo | location |
 | mounts | hasMany | mount |
 | parodont_journal_entries | hasMany | parodont-journal-entry |

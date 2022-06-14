@@ -24,9 +24,9 @@
 | ---- | ----------- | ---------- |
 | currency | belongsTo | currency |
 | insurance_contract | belongsTo | insurance-contract |
-| new_atb | belongsTo | new-atb |
-| old_atb | belongsTo | old-atb |
-| patient | belongsTo | patient |
+| new_atb | belongsTo | [new-atb](../atbs/) |
+| old_atb | belongsTo | [old-atb](../atbs/) |
+| patient | belongsTo | [patient](../patients/) |
 | tanden_check_commentaries | hasMany | tanden-check-commentary |
 
 
