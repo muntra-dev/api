@@ -11,5 +11,4 @@
 | Name | Cardinality | Data Model |
 | ---- | ----------- | ---------- |
 | claim | belongsTo | validate-claim |
-| tanden_check | belongsTo | [tanden-check](../tanden-checks/)
- |
+| tanden_check | belongsTo | [tanden-check](../tanden-checks/) |
