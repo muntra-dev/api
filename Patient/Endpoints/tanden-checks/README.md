@@ -23,7 +23,7 @@
 | Name | Cardinality | Data Model |
 | ---- | ----------- | ---------- |
 | currency | belongsTo | currency |
-| insurance_contract | belongsTo | insurance-contract |
+| insurance_contract | belongsTo | [insurance-contract](../insurance-contracts/) |
 | new_atb | belongsTo | [new-atb](../atbs/) |
 | old_atb | belongsTo | [old-atb](../atbs/) |
 | patient | belongsTo | [patient](../patients/) |
