@@ -2,6 +2,7 @@
 | Method | URL | Query Parameters |
 | ------ | --- | ---------------- |
 | GET | /muntra-patient-reviews | caregiver_id, order, page, per_page, sort_by |
+| GET | /muntra-patient-reviews | clinic_id, order, page, per_page, sort_by |
 
 
 ## Properties
