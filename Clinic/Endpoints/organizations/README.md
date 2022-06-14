@@ -1,7 +1,7 @@
 ## Supported HTTP Methods
 | Method | URL | Query Parameters |
 | ------ | --- | ---------------- |
-| GET | /organizations/current |  |
+| GET | /organizations/current | TBD |
 
 
 ## Properties
