@@ -27,7 +27,7 @@
 | new_atb | belongsTo | [new-atb](../atbs/) |
 | old_atb | belongsTo | [old-atb](../atbs/) |
 | patient | belongsTo | [patient](../patients/) |
-| tanden_check_commentaries | hasMany | tanden-check-commentary |
+| tanden_check_commentaries | hasMany | [tanden-check-commentary](../commentaries/) |
 
 
 ## Samples
