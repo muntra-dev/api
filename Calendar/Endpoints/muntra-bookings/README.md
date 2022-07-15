@@ -125,7 +125,7 @@
             "address_1":"Frans Kriegs v\u00e4g 16",
             "address_2":null,
             "postal_code":"16733",
-            "phone_number_cell":"+467465767908",
+            "phone_number_cell":"+46700000000",
             "accepts_review_request_emails":true
          }
       },
