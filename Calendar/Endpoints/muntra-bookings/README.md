@@ -116,7 +116,7 @@
          "type":"muntra_patient",
          "id":"202",
          "attributes":{
-            "social_security_number":"198204114063",
+            "social_security_number":"19820411XXXX",
             "e_mail_address":"user@gmail.com",
             "first_name":"Hanna",
             "last_name":"Van Gilse Van Der Pals",
