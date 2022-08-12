@@ -11,7 +11,7 @@
 | dtend |  | isodate |
 | dtstart |  | isodate |
 | first_sendout_on |  | isodate |
-| partstat | Can be 'TENTATIVE', 'ACCEPTED', 'DECLINED', 'NEEDS-ACTION' (this last one is default). | string |
+| partstat | Can be `TENTATIVE`, `ACCEPTED`, `DECLINED`, `NEEDS-ACTION` (this last one is default). | string |
 | rsvp | Used to specify whether there is an expectation of reply from the calendar user specified by the property value. | boolean |
 
 
