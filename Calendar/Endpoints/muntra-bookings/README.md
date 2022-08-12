@@ -1,13 +1,13 @@
 ## Supported HTTP Methods
 | Method | URL | Query Parameters |
 | ------ | --- | ---------------- |
-| GET | /muntra-bookings | order, per_page, sort_by, status, from_date, iclude|
+| GET | /muntra-bookings | from_date, include, order, per_page, sort_by, status |
 | POST | /muntra-bookings | caregiver_id, patient_personal_id |
 | POST | /muntra-bookings/${bookingData.id}/reschedule | new_dtstart |
 
 ## Attributes
 | Name | Info | Type |
-| ------------- | ------------- | ------------- |
+| ---- | ---- | ---- |
 | booked_by_patient |  | boolean |
 | class |  | string |
 | description |  | string |
@@ -30,7 +30,7 @@
 ## Relations
 | Name | Cardinality | Data Model |
 | ------------- | ------------- | ------------- |
-| booking_attendees | hasMany | [muntra_booking_attendee](https://github.com/muntra-dev/api/tree/hi-muntra-bookings-changes/Calendar/Endpoints/muntra-booking-attendees) |
+| booking_attendees | hasMany | [muntra_booking_attendee](https://github.com/muntra-dev/api/tree/main/Calendar/Endpoints/muntra-booking-attendees) |
 | clinic | belongsTo | muntra_clinic |
 | organizer | belongsTo | muntra_caregiver |
 | procedure | belongsTo | muntra_procedure |
@@ -117,7 +117,8 @@
          "type":"muntra_patient",
          "id":"202",
          "attributes":{
-            "social_security_number":"198204114063",
+            "social_security_number":"19820411XXXX",
+            "e_mail_address":"user@gmail.com",
             "first_name":"Hanna",
             "last_name":"Van Gilse Van Der Pals",
             "gender":"female",
@@ -164,17 +165,17 @@
             },
             "specialities":{
                "data":[
-                  
+
                ]
             },
             "educations":{
                "data":[
-                  
+
                ]
             },
             "languages":{
                "data":[
-                  
+
                ]
             },
             "default_user_image":{
@@ -236,7 +237,7 @@
             "clinic_address_2":"",
             "clinic_postal_code":"12341",
             "clinic_city":"Stockholm",
-            "clinic_email_address":"niels@muntra.se",
+            "clinic_email_address":"user@gmail.se",
             "clinic_phone_number":"",
             "clinic_phone_number_2":"",
             "clinic_phone_mobile":"",
