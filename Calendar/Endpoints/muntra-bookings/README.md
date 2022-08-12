@@ -2,7 +2,8 @@
 | Method | URL | Query Parameters |
 | ------ | --- | ---------------- |
 | GET | /muntra-bookings | from_date, include, order, per_page, sort_by, status |
-| POST | /muntra-bookings | TBD |
+| POST | /muntra-bookings | caregiver_id, patient_personal_id |
+| POST | /muntra-bookings/${bookingData.id}/reschedule | new_dtstart |
 
 ## Attributes
 | Name | Info | Type |
@@ -28,8 +29,8 @@
 
 ## Relations
 | Name | Cardinality | Data Model |
-| ---- | ----------- | ---------- |
-| booking_attendees | hasMany | muntra_booking_attendee |
+| ------------- | ------------- | ------------- |
+| booking_attendees | hasMany | [muntra_booking_attendee](https://github.com/muntra-dev/api/tree/main/Calendar/Endpoints/muntra-booking-attendees) |
 | clinic | belongsTo | muntra_clinic |
 | organizer | belongsTo | muntra_caregiver |
 | procedure | belongsTo | muntra_procedure |
@@ -125,7 +126,6 @@
             "address_1":"Frans Kriegs v\u00e4g 16",
             "address_2":null,
             "postal_code":"16733",
-            "phone_number_cell":"+46700000000",
             "accepts_review_request_emails":true
          }
       },
