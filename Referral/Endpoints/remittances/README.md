@@ -1,7 +1,7 @@
 ## Supported HTTP Methods
 | Method | URL | Query Parameters |
 | ------ | --- | ---------------- |
-| GET | /remittances |  |
+| GET | /remittances | TBD |
 
 ## Properties
 | Name | Info | Type |
