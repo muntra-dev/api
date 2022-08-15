@@ -7,7 +7,7 @@
 | Name | Info | Type |
 | ---- | ---- | ---- |
 | created_at |  | isodate |
-| external |  | boolean |
+| external | If `true`, the remittance-response is copied to the referral sender / receiver. | boolean |
 | signed_at |  | isodate |
 | text |  | string |
 | updated_at |  | isodate |
