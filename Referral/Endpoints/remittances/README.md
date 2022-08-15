@@ -68,7 +68,7 @@ consultation |  | boolean |
 | Name | Cardinality | Data Model |
 | ---- | ----------- | ---------- |
 | journal_entry | belongsTo | journal-entry |
-| patient | belongsTo | patient |
+| patient | belongsTo | [patient](../../../Patient/Endpoints/patients/) |
 | receiver_clinic | belongsTo | clinic |
 | receiver_creation_signer | belongsTo | user |
 | receiver_files | hasMany | file |
