@@ -6,11 +6,11 @@
 ## Properties
 | Name | Info | Type |
 | ---- | ---- | ---- |
-| created_at | isodate |
-| external | boolean |
-| signed_at | isodate |
-| text | string |
-| updated_at | isodate |
+| created_at |  | isodate |
+| external |  | boolean |
+| signed_at |  | isodate |
+| text |  | string |
+| updated_at |  | isodate |
 
 
 ## Relations
