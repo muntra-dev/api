@@ -11,7 +11,7 @@
 | draft |  | boolean |
 | editable |  | boolean |
 | entry_date |  | isodate |
-| entry_type |  | string |
+| entry_type | Can be `admin`, `epicrisis`, `parod`, `status` or `treatment` | string |
 | fee |  | number |
 | imported |  | boolean |
 | included_in_insurance |  | boolean |
