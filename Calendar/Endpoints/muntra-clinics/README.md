@@ -61,9 +61,10 @@
 
 ## Relations
 | Name | Cardinality | Data Model |
-| ------------- | ------------- | ------------- |
-|  | hasMany |  |
-|  | belongsTo |  |
+| ---- | ----------- | ---------- |
+| caregiver_locations | hasMany | muntra-caregiver-at-location |
+| google_place_detail | belongsTo | muntra-google-place-detail |
+| logotype | belongsTo | muntra-clinic-image |
 
 ## Samples
 ### GET Request
