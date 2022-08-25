@@ -22,7 +22,7 @@ Additional properties are found in [the remittance model](../remittances/).
 Additional relations are found in [the remittance model](../remittances/).
 
 
-## Statuses (in order of parsing)
+## Statuses (in order of evaluation)
 | Code | Color | Condition |
 | ---- | ----- | --------- |
 | `declined` | Gray | `declined_at` is truthy |
