@@ -26,7 +26,7 @@ Additional relations are found in [the remittance model](../remittances/).
 | Code | Color | Condition |
 | ---- | ----- | --------- |
 | `declined` | Gray | `declined_at` is truthy |
-| `completed` | Green | <ul><li>`closed_at` is truthy</li><li>`receiver_user_signed_at` and `remittance_response` is truthy</li></ul> |
+| `completed` | Green | <ul><li>`closed_at` is truthy</li><li>`receiver_user_signed_at` and `remittance_response` are truthy</li></ul> |
 | `booked` | Purple | `booked` is truthy |
 | `approved` | White | `approved_at` is truthy |
 | `received-confirmed` | Blue | `confirmed_receipt_at` is truthy |
